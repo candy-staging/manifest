@@ -23,12 +23,11 @@
           revision="twelve" />
 
   <!-- External repos -->
-  <project path="external/boringssl" name="external_boringssl" remote="pixel" />
+
   <project path="external/cldr" name="external_cldr" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
   <project path="external/guice" name="external_guice" remote="pixel" />
-  <project path="external/icu" name="external_icu" remote="pixel" />
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/mksh" name="external_mksh" remote="pixel" />
   <project path="external/perfetto" name="external_perfetto" remote="pixel" />
@@ -38,9 +37,8 @@
 
   <!-- Framework repos -->
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="pixel" />
-
   <project path="kernel/configs" name="kernel_configs" remote="pixel" />
-	  
+
   <!-- Hardware repos -->
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="pixel" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="pixel" />
@@ -72,14 +70,9 @@
   <!-- Packages repos -->
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
-  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
-  <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
-  <project path="packages/modules/adb" name="packages_modules_adb" remote="pixel" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="pixel" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="pixel" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="pixel" />
-  <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
@@ -99,9 +92,6 @@
   <project path="system/libufdt" name="system_libufdt" remote="pixel" />
   <project path="system/libziparchive" name="system_libziparchive" remote="pixel" />
   <project path="system/media" name="system_media" remote="pixel" />
-  <project path="system/nfc" name="system_nfc" remote="pixel" />
-  <project path="system/security" name="system_security" remote="pixel" />
-  <project path="system/timezone" name="system_timezone" remote="pixel" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="pixel" />
 
   <!-- Tools Repos -->

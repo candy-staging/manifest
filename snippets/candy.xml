@@ -13,6 +13,13 @@
           fetch="https://gitlab.com/miju12"
           revision="c12.1" />
 
+   <!-- External Repos-->
+  <project path="external/boringssl" name="external_boringssl" remote="pixel" />
+  <project path="external/icu" name="external_icu" remote="pixel" />
+  <project path="external/selinux" name="external_selinux" remote="candy" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="miju12" />
+  <project path="external/tinyxml" name="external_tinyxml" remote="candy" />
+
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="candy" />
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
@@ -67,17 +74,26 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="candy" />
   <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="candy" />
   <project path="packages/apps/faceunlockservice" name="packages_apps_faceunlockservice" remote="miju" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
+  <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="pixel" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="pixel" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="candy" />
+  <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="candy" />
+
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="candy" />
+  <project path="system/nfc" name="system_nfc" remote="candy" />
   <project path="system/netd" name="system_netd" remote="candy" />
+  <project path="system/security" name="system_security" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="candy" />
+  <project path="system/timezone" name="system_timezone" remote="candy" />
   <project path="system/vold" name="system_vold" remote="candy" />
   <project path="system/update_engine" name="system_update_engine" remote="candy" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="candy" />
 
-  <!-- Device Repos -->	  
+  <!-- Device Repos -->
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="candy" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="candy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
@@ -93,10 +109,5 @@
 
   <!-- Extras -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
-
-  <!-- External repos -->
-  <project path="external/selinux" name="external_selinux" remote="candy" />
-  <project path="external/tinycompress" name="external_tinycompress" remote="miju12" />
-  <project path="external/tinyxml" name="external_tinyxml" remote="candy" />
 
 </manifest>
